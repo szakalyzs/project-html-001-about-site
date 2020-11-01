@@ -9,10 +9,10 @@ body {
 #header {
     display: block;
     padding: 0.7rem;
-    background-color: #330000;
-    color: floralwhite;
-    /*background-image: url(/images/board-electronics-computer-data-processing.jpg);
-    background-repeat: no-repeat;*/
+    width: 100%;
+    background-color: #200000;
+    color: rgba(255,250,250,0.8);
+    font-weight: 800;
 }
 
 .mother {
@@ -41,9 +41,27 @@ body {
     }
 }
 
-
 img {
     box-shadow: 4px 4px 4px gray;
     height: 100%;
     width: 100%;
+}
+
+#footer {
+    position: fixed;
+    display:block;
+    padding: 0.7rem;
+    bottom: 0;
+    width: 100%;
+    background-color: #200000;
+    color: rgba(255,250,250,0.8);
+    font-weight: 500;
+}
+
+a {
+    color: rgba(255,255,220,0.8);
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
 }
