@@ -9,7 +9,6 @@ body {
 #header {
     display: block;
     padding: 0.7rem;
-    width: 100%;
     background-color: #200000;
     color: rgba(255,250,250,0.8);
     font-weight: 800;
@@ -29,30 +28,49 @@ body {
     text-align:center;
 }
 
-.container {
+.cont-2, .cont-3 {
     display: block;
     width:99%;
 }
 @media (min-width: 600px) {
-    .container {
+    .cont-2 {
         display: inline-block;
         width:47%;
         padding:1%;
     }
 }
+@media (min-width: 600px) {
+    .cont-3 {
+        display: inline-block;
+        width:30%;
+        padding:1%;
+    }
+}
+
+.box {
+    box-shadow: 4px 4px 4px gray;
+    border-radius: 10px;
+    border: 1px solid gray;
+    height: 100%;
+    width: 100%;
+}
+
+.img-decor {
+    box-shadow: 4px 4px 4px gray;
+    border-radius: 10px;
+}
 
 img {
-    box-shadow: 4px 4px 4px gray;
     height: 100%;
     width: 100%;
 }
 
 #footer {
-    position: fixed;
+    clear:both;
+    /*position: fixed;
+    bottom: 0;*/
     display:block;
     padding: 0.7rem;
-    bottom: 0;
-    width: 100%;
     background-color: #200000;
     color: rgba(255,250,250,0.8);
     font-weight: 500;
@@ -65,3 +83,52 @@ a {
 a:hover {
     text-decoration: underline;
 }
+
+.side {
+    display:block;
+    float: right;
+    width:21%;
+    height:100%;
+    margin:1%;
+    padding:1%;
+    background-color: #eeeeee;
+    box-shadow: 4px 4px 4px gray;
+    border-radius: 10px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #200000;
+  }
+  
+  li {
+    float: right;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px 20px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: #555555;
+  }
+  
+  .active {
+    background-color: #571414;
+  }
+
+  a.link {
+        color: #999999;  
+    }
+    a.link:hover {
+        background-color: black;
+    }
+  }
+  
