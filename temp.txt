@@ -1,0 +1,44 @@
+<div class="row">
+                    <div class="cont-3">
+                        <img class="img-decor" src="/images/gallery/01.jpg" alt="">
+                    </div>
+                    <div class="cont-3">
+                        <img class="img-decor" src="/images/gallery/02.jpg" alt="">
+                    </div>
+                    <div class="cont-3">
+                        <img class="img-decor" src="/images/gallery/03.jpg" alt="">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="cont-3">
+                        <img class="img-decor" src="/images/gallery/04.jpg" alt="">
+                    </div>
+                    <div class="cont-3">
+                        <img class="img-decor" src="/images/gallery/05.jpg" alt="">
+                    </div>
+                    <div class="cont-3">
+                        <img class="img-decor" src="/images/gallery/06.jpg" alt="">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="cont-3">
+                        <img class="img-decor" src="/images/gallery/07.jpg" alt="">
+                    </div>
+                    <div class="cont-3">
+                        <img class="img-decor" src="/images/gallery/08.jpg" alt="">
+                    </div>
+                    <div class="cont-3">
+                        <img class="img-decor" src="/images/gallery/09.jpg" alt="">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="cont-3">
+                        <img class="img-decor" src="/images/gallery/10.jpg" alt="">
+                    </div>
+                    <div class="cont-3">
+                        <img class="img-decor" src="/images/gallery/11.jpg" alt="">
+                    </div>
+                    <div class="cont-3">
+                        <img class="img-decor" src="/images/gallery/12.jpg" alt="">
+                    </div>
+                </div>
