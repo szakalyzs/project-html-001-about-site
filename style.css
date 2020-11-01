@@ -1,0 +1,22 @@
+body {
+    width:900px;
+    margin: auto;
+    margin-top: 10px;
+}
+
+#header {
+    display: block;
+    padding: 20px;
+    background-image: url(/images/board-electronics-computer-data-processing.jpg);
+    background-repeat: no-repeat;
+}
+
+.double {
+    width: 50%;
+    float:right;
+}
+
+.container {
+    width:100%
+    clear: both;
+}
