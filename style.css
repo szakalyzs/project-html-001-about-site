@@ -28,7 +28,7 @@ body {
     text-align:center;
 }
 
-.cont-2, .cont-3 {
+.cont-2, .cont-3, .cont-23 {
     display: block;
     width:99%;
 }
@@ -44,6 +44,15 @@ body {
         display: inline-block;
         width:30%;
         padding:1%;
+        vertical-align: top;
+    }
+}
+@media (min-width: 600px) {
+    .cont-23 {
+        display: inline-block;
+        width:65%;
+        padding:1%;
+        vertical-align: top;
     }
 }
 
