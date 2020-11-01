@@ -105,7 +105,7 @@ a:hover {
     border-radius: 10px;
 }
 
-ul {
+#menu ul, #footer ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -113,11 +113,11 @@ ul {
     background-color: #200000;
   }
   
-  li {
+  #menu ul li, #footer ul li {
     float: right;
   }
   
-  li a {
+  #menu ul li a, #footer ul li a {
     display: block;
     color: white;
     text-align: center;
@@ -125,7 +125,8 @@ ul {
     text-decoration: none;
   }
   
-  li a:hover:not(.active) {
+  #menu ul li a:hover:not(.active), 
+  #footer ul li a:hover:not(.active) {
     background-color: #555555;
   }
   
@@ -139,5 +140,16 @@ ul {
     a.link:hover {
         background-color: black;
     }
+
+  h3, ul, ol, li {
+      text-align: left;   
   }
-  
+
+ol > li {
+    padding-top: 10px;
+    font-weight: 800;
+}
+
+form {
+    text-align: right;
+}
