@@ -4,7 +4,7 @@ function kepez() {
         document.write('<div class="row">');
         for (let j = 0; j < 3; j++) {
             document.write('<div class="cont-3">');
-            document.write('<img class="img-decor" src="images/gallery/'+szam+'.jpg" alt="">');
+            document.write('<img class="img-decor" src="./images/gallery/'+szam+'.jpg" alt="">');
             document.write('</div>');
             szam++;
         }
